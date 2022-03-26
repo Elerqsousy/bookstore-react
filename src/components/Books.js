@@ -27,16 +27,14 @@ const Books = () => {
 
   return (
     <div>
-      {bookList.map((book) => {
-        return (
-          <BookCard
-            key={book.id}
-            category={book.category}
-            title={book.title}
-            author={book.author}
-          />
-        );
-      })}
+      {bookList.map((book) => (
+        <BookCard
+          key={book.id}
+          category={book.category}
+          title={book.title}
+          author={book.author}
+        />
+      ))}
       <AddBookForm />
     </div>
   );

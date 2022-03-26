@@ -19,13 +19,11 @@ const Navbar = () => {
     <nav>
       <h1>Bookstore CMS</h1>
       <ul>
-        {routLinks.map((rout) => {
-          return (
-            <li key={rout.id}>
-              <NavLink to={rout.path}>{rout.text}</NavLink>
-            </li>
-          );
-        })}
+        {routLinks.map((rout) => (
+          <li key={rout.id}>
+            <NavLink to={rout.path}>{rout.text}</NavLink>
+          </li>
+        ))}
       </ul>
     </nav>
   );

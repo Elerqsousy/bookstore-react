@@ -16,11 +16,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - ECMAScript-6 JS
 - CSS
 
-
-## Live Demo
-
-Check the [Live Demo](https://elerqsousy.github.io/bookstore-react/) deployed on github pages.
-
 ### setting up the project
 To setup the project, you will need to clone the file locally and follow one of the scripts available below after running `npm install` to install project dependencies
 ## Available Scripts

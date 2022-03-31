@@ -3,7 +3,7 @@
 # Bookstore
 
 This is a simple SPA for a bookstore app. Users can add and save books with book name, author name, category, and progress. They can also search and categorize books according to their categories.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://enchanting-halva-3e1dcf.netlify.app/).
 
 ## Screensot
 

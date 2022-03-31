@@ -12,10 +12,9 @@ export default function reducer(state = [], action = {}) {
   }
 }
 
-export function checkStatus(id) {
+export function checkStatus() {
   return {
     type: STATUS,
-    id,
   };
 }
 
